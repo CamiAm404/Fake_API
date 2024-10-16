@@ -1,67 +1,67 @@
 {
-    "properties": [
+    "publication": [
         {
             "id": 1,
-            "title": "Beautiful Family House",
-            "description": "A beautiful family house located in a quiet neighborhood.",
-            "type": "sale",
-            "price": 250000,
-            "location": {
-                "city": "Los Angeles",
-                "state": "CA",
-                "zip": "90001"
+            "userId": 1,
+            "title": "Gran casa en venta",
+            "description": "Casa ejemplo",
+            "price": 300,
+            "_Location": {
+                "address": "Los olivos 400"
             },
+            "priority": 50,
+            "hasExpired": false,
+            "expiresAt": "0001-01-01T00:00:00",
+            "createdDate": "2024-10-15T16:57:38.563224",
+            "updatedDate": null,
+            "isDeleted": false,
             "images": [
-                "https://example.com/images/house1_1.jpg",
-                "https://example.com/images/house1_2.jpg"
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714694.jpg?rapc=bXZhX2ltYWdl?isFirstImage=true",
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714701.jpg?rapc=bXZhX2ltYWdl",
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714695.jpg?rapc=bXZhX2ltYWdl",
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714687.jpg?rapc=bXZhX2ltYWdl",
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714689.jpg?rapc=bXZhX2ltYWdl",
+                "https://img10.naventcdn.com/avisos/resize/111/01/44/64/30/87/1200x1200/1487714685.jpg?rapc=bXZhX2ltYWdl"
             ]
         },
         {
             "id": 2,
-            "title": "Modern Apartment",
-            "description": "A modern apartment in the heart of the city.",
-            "type": "rent",
-            "price": 1500,
-            "location": {
-                "city": "New York",
-                "state": "NY",
-                "zip": "10001"
+            "userId": 2,
+            "title": "Departamento en alquiler",
+            "description": "Departamento céntrico",
+            "price": 300,
+            "_Location": {
+                "address": "Av. Siempre Viva 742"
             },
+            "priority": 30,
+            "hasExpired": false,
+            "expiresAt": "0001-01-01T00:00:00",
+            "createdDate": "2024-10-16T10:30:00.000000",
+            "updatedDate": null,
+            "isDeleted": false,
             "images": [
-                "https://example.com/images/apartment1_1.jpg",
-                "https://example.com/images/apartment1_2.jpg"
+                "https://example.com/images/dept1_1.jpg",
+                "https://example.com/images/dept1_2.jpg"
             ]
         },
         {
             "id": 3,
-            "title": "Cozy Cottage",
-            "description": "A cozy cottage perfect for a weekend getaway.",
-            "type": "sale",
-            "price": 120000,
-            "location": {
-                "city": "Austin",
-                "state": "TX",
-                "zip": "73301"
+            "userId": 3,
+            "title": "Terreno en venta",
+            "description": "Terreno amplio",
+            "price": 1000,
+            "_Location": {
+                "address": "Calle Falsa 123"
             },
+            "priority": 70,
+            "hasExpired": false,
+            "expiresAt": "0001-01-01T00:00:00",
+            "createdDate": "2024-10-17T14:45:00.000000",
+            "updatedDate": null,
+            "isDeleted": false,
             "images": [
-                "https://example.com/images/cottage1_1.jpg",
-                "https://example.com/images/cottage1_2.jpg"
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Spacious Villa",
-            "description": "A spacious villa with a beautiful garden.",
-            "type": "rent",
-            "price": 3000,
-            "location": {
-                "city": "Miami",
-                "state": "FL",
-                "zip": "33101"
-            },
-            "images": [
-                "https://example.com/images/villa1_1.jpg",
-                "https://example.com/images/villa1_2.jpg"
+                "https://example.com/images/land1_1.jpg",
+                "https://example.com/images/land1_2.jpg"
             ]
         }
     ]

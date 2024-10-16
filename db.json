@@ -1,0 +1,68 @@
+{
+    "properties": [
+        {
+            "id": 1,
+            "title": "Beautiful Family House",
+            "description": "A beautiful family house located in a quiet neighborhood.",
+            "type": "sale",
+            "price": 250000,
+            "location": {
+                "city": "Los Angeles",
+                "state": "CA",
+                "zip": "90001"
+            },
+            "images": [
+                "https://example.com/images/house1_1.jpg",
+                "https://example.com/images/house1_2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Modern Apartment",
+            "description": "A modern apartment in the heart of the city.",
+            "type": "rent",
+            "price": 1500,
+            "location": {
+                "city": "New York",
+                "state": "NY",
+                "zip": "10001"
+            },
+            "images": [
+                "https://example.com/images/apartment1_1.jpg",
+                "https://example.com/images/apartment1_2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Cozy Cottage",
+            "description": "A cozy cottage perfect for a weekend getaway.",
+            "type": "sale",
+            "price": 120000,
+            "location": {
+                "city": "Austin",
+                "state": "TX",
+                "zip": "73301"
+            },
+            "images": [
+                "https://example.com/images/cottage1_1.jpg",
+                "https://example.com/images/cottage1_2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Spacious Villa",
+            "description": "A spacious villa with a beautiful garden.",
+            "type": "rent",
+            "price": 3000,
+            "location": {
+                "city": "Miami",
+                "state": "FL",
+                "zip": "33101"
+            },
+            "images": [
+                "https://example.com/images/villa1_1.jpg",
+                "https://example.com/images/villa1_2.jpg"
+            ]
+        }
+    ]
+}

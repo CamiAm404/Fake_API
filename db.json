@@ -1,4 +1,34 @@
 {
+    "wallets": [
+        {
+            "id": 1,
+            "walletId": 1,
+            "name": "Factura Aurora",
+            "face_value": "200000",
+            "signature_date": "15/06/2024"
+        },
+        {
+            "id": 2,
+            "walletId": 1,
+            "name": "Factura Brisa",
+            "face_value": "230000",
+            "signature_date": "20/07/2024"
+        },
+        {
+            "id": 3,
+            "walletId": 1,
+            "name": "Factura Cielo",
+            "face_value": "250000",
+            "signature_date": "25/08/2024"
+        },
+        {
+            "id": 4,
+            "walletId": 2,
+            "name": "Factura XYZ",
+            "face_value": "250000",
+            "signature_date": "26/10/2024"
+        }
+    ],
     "publication": [
         {
             "id": 1,

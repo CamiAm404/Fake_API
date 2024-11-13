@@ -1,32 +1,66 @@
 {
+    "wallets": [
+        {
+            "id": 1,
+            "name": "Billetera de Comercializadora S.A.",
+            "interestRate": 0.1,
+            "interestType": "Nominal",
+            "interestPeriod": "Mensual",
+            "capitalizationPeriod": "Mensual",
+            "activationFee": 100,
+            "portabilityFee": 25,
+            "retentionPercentage": 0.15,
+            "administrativeExpenses": 60,
+            "mortgageInsurance": 0.2,
+            "riskInsurance": 0.1,
+            "operationTerm": "120",
+            "discountDate": "15/10/2024"
+        },
+        {
+            "id": 2,
+            "name": "Billetera de Constructora S.A.",
+            "interestRate": 0.2,
+            "interestType": "Efectiva",
+            "interestPeriod": "Anual",
+            "capitalizationPeriod": "Anual",
+            "activationFee": 200,
+            "portabilityFee": 50,
+            "retentionPercentage": 0.2,
+            "administrativeExpenses": 70,
+            "mortgageInsurance": 0.3,
+            "riskInsurance": 0.2,
+            "operationTerm": "240",
+            "discountDate": "20/10/2024"
+        }
+    ],
     "bills": [
         {
             "id": 1,
             "walletId": 1,
             "name": "Factura Aurora",
-            "face_value": "200000",
-            "signature_date": "15/06/2024"
+            "faceValue": "200000",
+            "signatureDate": "15/06/2024"
         },
         {
             "id": 2,
             "walletId": 1,
             "name": "Factura Brisa",
-            "face_value": "230000",
-            "signature_date": "20/07/2024"
+            "faceValue": "230000",
+            "signatureDate": "20/07/2024"
         },
         {
             "id": 3,
             "walletId": 1,
             "name": "Factura Cielo",
-            "face_value": "250000",
-            "signature_date": "25/08/2024"
+            "faceValue": "250000",
+            "signatureDate": "25/08/2024"
         },
         {
             "id": 4,
             "walletId": 2,
             "name": "Factura XYZ",
-            "face_value": "250000",
-            "signature_date": "26/10/2024"
+            "faceValue": "250000",
+            "signatureDate": "26/10/2024"
         }
     ],
     "publication": [

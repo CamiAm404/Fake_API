@@ -18,19 +18,13 @@
         },
         {
             "id": 2,
-            "name": "Billetera de Constructora S.A.",
-            "interestRate": 0.2,
-            "interestType": "Efectiva",
-            "interestPeriod": "Anual",
-            "capitalizationPeriod": "Anual",
-            "activationFee": 200,
-            "portabilityFee": 50,
-            "retentionPercentage": 0.2,
-            "administrativeExpenses": 70,
-            "mortgageInsurance": 0.3,
-            "riskInsurance": 0.2,
-            "operationTerm": "240",
-            "discountDate": "20/10/2024"
+            "userId": 2,
+            "nombreCartera": "Billetera de Constructora S.A.",
+            "tcea": 37,
+            "valorRecibido": 200,
+            "valorEntregado": 250,
+            "plazoOperacion": 240,
+            "fechaDescuento": "20/10/2024"
         }
     ],
     "bills": [
